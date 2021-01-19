@@ -72,7 +72,7 @@ function showCurrentWeather(event) {
   form.addEventListener("submit", handleSubmit);
   
   let currentButton = document.querySelector("#current");
-  form.addEventListener("submit", showCurrentWeather);
+  form.addEventListener("click", showCurrentWeather);
   
   searchCity("London");
   
