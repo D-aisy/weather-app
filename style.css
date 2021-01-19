@@ -1,0 +1,72 @@
+h3 {
+    opacity: 0.8;
+}
+
+button{
+    margin: 10px;
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+    opacity: 0.6;
+}
+
+button.hover{
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+.all{
+    font-family: 'Raleway', sans-serif;
+    max-width: 700px;
+}
+
+.city {
+    font-size: 40px;
+    display: block;
+    padding: 0;
+    margin: 0;
+    color: #878787;
+    position: relative;
+}
+
+
+
+#date-time {
+    padding: 0;
+    margin: 0;
+    color: #878787;
+    line-height: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.temp {
+    padding: 0;
+    margin: 0;
+    color: #878787
+
+}
+
+.buttons{
+    border: solid 2px;
+    border-radius: 4px;
+    border-color: #878787;
+    padding: 20px;
+    margin: 15px;
+}
+
+.col-md-2{
+    text-align: center;
+    border: solid 1px;
+    border-radius: 3%;
+    margin: 5px;
+    padding: 4px;
+    opacity: 0.8;
+}
+
+.col-sm-6{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
