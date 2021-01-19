@@ -16,6 +16,10 @@ a {
     text-decoration: none;
 }
 
+.github-link {
+    text-align: center;
+}
+
 .all{
     font-family: 'Raleway', sans-serif;
     max-width: 700px;
