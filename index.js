@@ -10,20 +10,17 @@ function showCurrentWeather(event) {
     let urlEndpoint = "https://api.openweathermap.org/data/2.5/weather";
     let apiUrl = `${urlEndpoint}?lat=${latitude}&lon=${longitude}&appid=${apiKey}&units=metric`;
     axios.get(apiUrl).then(showWeather);
-    console.log(position)
   }
   
   function showWeather(response) {
     document.querySelector("#current-city").innerHTML = response.data.name;
     document.querySelector("#temp").innerHTML = `${Math.round(
-      response.data.main.temp
-    )}°C`;
-  
+      response.data.main.temp)}°C`;
     document.querySelector("#weather-description").innerHTML =
       response.data.weather[0].main;
   
-    //document.querySelector("#wind").innerHTML = Math.round(response.data.wind.speed)
-    //document.querySelector("#humidity").innerHTML=response.data.main.humidity;
+    document.querySelector("#wind").innerHTML = Math.round(response.data.wind.speed)
+    document.querySelector("#humidity").innerHTML=response.data.main.humidity;
     console.log(response);
   }
   
